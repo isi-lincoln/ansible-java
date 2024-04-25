@@ -46,5 +46,5 @@ galaxy_info:
     - web
     - windows
 dependencies:
-  - role: professormanhattan.homebrew
+  - role: ansible-homebrew
     when: ansible_os_family == "Darwin"
